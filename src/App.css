@@ -1,9 +1,8 @@
-.App h1{
-  text-align: center;
-}
-.container {
+.App{
+  margin: 0;
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
 }

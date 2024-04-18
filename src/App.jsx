@@ -3,7 +3,9 @@ import Card from './assets/componentes/Card';
 
 function App() {
   return (
-        <Card />
+    <div className='App'>
+      <Card />
+    </div>
   );
 }
 

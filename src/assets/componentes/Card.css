@@ -1,10 +1,5 @@
 .Card {
-    width: 300px;
-    height: 480px;
-    margin-top: 50px;
-    background: whitesmoke;
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 1px black;
 }
 
 .uppeContainer{
@@ -15,17 +10,17 @@
 
 .image img{
     background: #00f75f;;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 10px;
     transform: translate(95px,45px);
 }
 
 .lowerContainer{
-    margin-top: 60px;
-    height: 300px;
-    background: whitesmoke;
+    padding: 90px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-family: 'Comic Sans MS';
 }
@@ -33,6 +28,8 @@
 .lowerContainer h3,h4,p{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .lowerContainer h3{
@@ -51,4 +48,15 @@
     color: darkgreen;
     font-weight: 800;
     font-size: 1 rem;
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    margin: 1rem;
+    color: #00f75f;
+    background-color: white;
+    border: 2px solid #02c4ff;
+    padding: 0.6rem;
+
 }

@@ -1,8 +1,5 @@
 .App{
-  margin: 0;
-  display: flex;
-  place-items: center;
+  margin: 100px;
   min-width: 320px;
-  min-height: 100vh;
-  justify-content: center;
+  background: linear-gradient(to left, #00f75f,#02c4ff);
 }

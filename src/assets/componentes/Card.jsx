@@ -11,16 +11,13 @@ function Card() {
 
     return (
         <div className='Card'>
-            <div className='uppeContainer'>
-                <div className='image'>
-                    <img src="/src/assets/images/me.jpg" alt="andrew.img" height="100px" width="100px" />
-                </div>
+            <div className='image'>
+                    <img src="/src/assets/images/me.jpg" alt="andrew.img" height="190px" width="190px" />
             </div>
             <div className='lowerContainer'>
                 <h3>{name}</h3>
                 <h4>{job}</h4>
                 <p>{about}</p>
-                <button>Visit Profile</button>
             </div>
         </div>
     )
